@@ -39,7 +39,9 @@ function fill_calendar(bday) {
       continue;
     }
 
-    week.style.backgroundColor = get_css_variable('--color-dark-red');
+    week.style.backgroundColor = get_css_variable(
+      '--color-transparent-dark-red'
+    );
   }
 
   const total_weeks = life_expectancy * 52;
@@ -51,7 +53,7 @@ function fill_calendar(bday) {
       continue;
     }
 
-    week.style.backgroundColor = get_css_variable('--color-red');
+    week.style.backgroundColor = get_css_variable('--color-transparent-red');
   }
 }
 
