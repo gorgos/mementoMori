@@ -3,6 +3,8 @@
   --cols-per-rect: 26;
 
   --color-dark-gray: #333;
+  --color-red: #ee4545;
+  --color-dark-red: #873939;
   --color-black: #000;
   --color-white: #fff;
   --rect-gap: 10px;
@@ -17,6 +19,7 @@
 @media print {
   .week-cell {
     -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 }
 
